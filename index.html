@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="textArtApp">
+<head>
+	<title>textArt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/1.0.21/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/angularfire/0.8.2/angularfire.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body ng-controller="MainCtrl">
+	<div ng-style="bgColor">Hello, Princess. What color would you like to see?  
+		<input type="text" ng-model="person.name" />
+	</div>
+</body>
+</html>
